@@ -21,7 +21,7 @@
 
 body {
     color: var(--primary-text-color);
-    background-color: var(--white-color);
+    background-color: var(--primary-bg-color);
 }
 ul {
     list-style: none;
