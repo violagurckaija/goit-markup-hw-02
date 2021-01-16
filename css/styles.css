@@ -30,10 +30,6 @@ ul {
     color: #2196F3;
 }
 
-/* Black section title */
-.section-title {
-    color: #212121;
-}
 
 /* Hero */
 .hero-title {
@@ -41,4 +37,14 @@ ul {
 }
 
 
+/* Black section title */
+.section-title {
+    color: #212121;
+}
+
+
+/* Features */
+.feature-list .title {
+    color: #212121;
+}
 
