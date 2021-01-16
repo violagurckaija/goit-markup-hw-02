@@ -17,11 +17,8 @@
 }
 
 
-
-
-
 body {
-    color: #757575;
+    color: var(--primary-text-color);
     background-color: #fff;
 }
 ul {
@@ -29,16 +26,16 @@ ul {
 }
 
 .logo {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 /* site nav */
 .site-nav .link {
-    color: #212121 ;
+    color: var(--title-text-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 
@@ -50,12 +47,12 @@ ul {
 
 /* Black section title */
 .section-title {
-    color: #212121;
+    color: var(--title-text-color);
 }
 
 
 /* Features */
 .feature-list .title {
-    color: #212121;
+    color: var(--title-text-color);
 }
 
