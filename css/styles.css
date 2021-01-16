@@ -40,7 +40,7 @@ ul {
 }
 
 .site-nav .link.current {
-    color: red;
+    color: var(--accent-color);
 }
 
 
