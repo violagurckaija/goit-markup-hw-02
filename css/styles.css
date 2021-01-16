@@ -10,6 +10,22 @@ ul {
 /* Вторичный цвет текста #212121 */
 /* Белый #FFFFFF */
 /* Акцент #2196F3 */
+/* Цвет контактов в футере background: #FFFFFF 60 %;
+ */
 
 /* fill #2F303A */
 /* Вторичный цвет фона #FFFFFF */
+/* Третий цвет фона #E5E5E5 */
+
+.logo {
+    color: #2196F3;
+}
+
+/* site nav */
+.site-nav .link {
+    color: #212121 ;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #2196F3;
+}
