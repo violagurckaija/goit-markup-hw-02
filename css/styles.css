@@ -1,12 +1,12 @@
 .test-link {
-    color:black
+    color:black;
 }
 
 .test-link:hover,
 .test-link:focus {
-    color: tomato
+    color: rgb(255,0,0, 0.5);
 }
 
 .test-link:active {
-    color:teal
+    color:teal;
 }
