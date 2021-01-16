@@ -56,3 +56,7 @@ ul {
     color: var(--title-text-color);
 }
 
+/* Examples с именами команд*/
+.team-list .name {
+    color: var(--title-text-color);
+}
