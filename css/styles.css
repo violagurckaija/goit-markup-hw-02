@@ -9,6 +9,8 @@
 /* Вторичный цвет фона #FFFFFF */
 /* Третий цвет фона #E5E5E5 */
 
+/* Доп цвет для лого #000000 */
+
 
 :root {
 --primary-text-color: #757575;
@@ -16,6 +18,7 @@
 --accent-color: #2196F3;
 --white-color: #ffffff;
 --primary-bg-color: #2F303A;
+--studio-black-color: #000000;
 }
 
 
@@ -25,10 +28,6 @@ body {
 }
 ul {
     list-style: none;
-}
-
-.logo {
-    color: var(--accent-color);
 }
 
 /* site nav */
@@ -67,4 +66,15 @@ ul {
 button {
     color: var(--white-color);
     background-color: var(--accent-color);
+}
+
+/* Логотипы */
+.logo {
+    color: var(--accent-color);
+}
+.first-studio {
+    color: var(--studio-black-color);
+}
+.second-studio {
+    color: var(--white-color);
 }
