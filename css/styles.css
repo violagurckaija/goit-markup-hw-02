@@ -34,3 +34,11 @@ ul {
 .section-title {
     color: #212121;
 }
+
+.human > .section-title {
+    color: red;
+}
+
+
+
+
