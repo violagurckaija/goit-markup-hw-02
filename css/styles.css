@@ -5,7 +5,7 @@
 /* Цвет контактов в футере background: #FFFFFF 60 %;
  */
 
-/* fill #2F303A */
+/* Главный (primary)fill цвет фона #2F303A */
 /* Вторичный цвет фона #FFFFFF */
 /* Третий цвет фона #E5E5E5 */
 
@@ -14,12 +14,14 @@
 --primary-text-color: #757575;
 --title-text-color: #212121;
 --accent-color: #2196F3;
+--white-color: #ffffff;
+--primary-bg-color: #2F303A;
 }
 
 
 body {
     color: var(--primary-text-color);
-    background-color: #fff;
+    background-color: var(--white-color);
 }
 ul {
     list-style: none;
@@ -41,7 +43,7 @@ ul {
 
 /* Hero */
 .hero-title {
-    color: #FFFFFF;
+    color: var(--white-color);
 }
 
 
@@ -59,4 +61,10 @@ ul {
 /* Examples с именами команд*/
 .team-list .name {
     color: var(--title-text-color);
+}
+
+/* Button */
+button {
+    color: var(--white-color);
+    background-color: var(--accent-color);
 }
