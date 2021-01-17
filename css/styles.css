@@ -2,15 +2,11 @@
 /* Вторичный цвет текста #212121 */
 /* Белый #FFFFFF */
 /* Акцент #2196F3 */
-/* Цвет контактов в футере background: #FFFFFF 60 %;
- */
-
-/* Главный (primary)fill цвет фона #2F303A */
-/* Вторичный цвет фона #FFFFFF */
-/* Третий цвет фона #E5E5E5 */
 
 /* Доп цвет для лого #000000 */
 /* Цвет ссылок для адреса  rgba(255, 255, 255, 60%) */
+/* Вторичный цвет фона 2F303A*/
+/* Цвет фона в секции команды F5F4FA*/
 
 
 :root {
@@ -18,15 +14,16 @@
 --title-text-color: #212121;
 --accent-color: #2196F3;
 --white-color: #ffffff;
---primary-bg-color: #2F303A;
+--dark-blue-color: #2F303A;
 --studio-black-color: #000000;
 --transparent-white-color: rgba(255, 255, 255, 60%);
+--team-bcg-color: #f5f4fa;
 }
 
 
 body {
     color: var(--primary-text-color);
-    background-color: var(--primary-bg-color);
+    background-color: var(--white-color);
 }
 ul {
     list-style: none;
@@ -49,6 +46,10 @@ ul {
 /* Hero */
 .hero-title {
     color: var(--white-color);
+}
+
+.hero {
+    background-color: var(--dark-blue-color);
 }
 
 
@@ -105,4 +106,13 @@ a {
 }
 .address-link {
     color: var(--transparent-white-color)
+}
+
+/* Фон */
+footer {
+ background-color: var(--dark-blue-color);
+}
+
+.section-team {
+    background-color: var(--team-bcg-color);
 }
