@@ -48,10 +48,6 @@ ul {
     color: var(--white-color);
 }
 
-.hero {
-    background-color: var(--dark-blue-color);
-}
-
 
 /* Black section title */
 .section-title {
@@ -109,7 +105,8 @@ a {
 }
 
 /* Фон */
-footer {
+footer,
+.hero {
  background-color: var(--dark-blue-color);
 }
 
