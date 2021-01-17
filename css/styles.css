@@ -10,6 +10,7 @@
 /* Третий цвет фона #E5E5E5 */
 
 /* Доп цвет для лого #000000 */
+/* Цвет ссылок для адреса  rgba(255, 255, 255, 60%) */
 
 
 :root {
@@ -19,6 +20,7 @@
 --white-color: #ffffff;
 --primary-bg-color: #2F303A;
 --studio-black-color: #000000;
+--transparent-white-color: rgba(255, 255, 255, 60%);
 }
 
 
@@ -81,4 +83,26 @@ button {
 }
 .second-studio {
     color: var(--white-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Контакты в шапке */
+.contacts .contact-link {
+    color: var(--primary-text-color);
+}
+.contacts .contact-link:hover,
+.contacts .contact-link:focus {
+    color: var(--accent-color);
+}
+
+/* Футер */
+
+.address-text {
+    color: var(--white-color);
+}
+.address-link {
+    color: var(--transparent-white-color)
 }
