@@ -23,7 +23,6 @@
 
 body {
     color: var(--primary-text-color);
-    background-color: var(--white-color);
 }
 ul {
     list-style: none;
