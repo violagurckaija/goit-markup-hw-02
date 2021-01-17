@@ -24,6 +24,8 @@
 body {
     color: var(--primary-text-color);
 }
+
+/* - Точки у списка */
 ul {
     list-style: none;
 }
@@ -88,6 +90,7 @@ ul {
     color: var(--white-color);
 }
 
+/* - нижнее подчеркивание у кнопок */
 a {
     text-decoration: none;
 }
