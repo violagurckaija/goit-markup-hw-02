@@ -66,10 +66,17 @@ ul {
 }
 
 /* Button */
-button {
+.hero .order {
     color: var(--white-color);
     background-color: var(--accent-color);
 }
+.hero .order:hover,
+.hero .order:focus {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+    cursor: pointer;
+}
+
 
 /* Логотипы */
 .logo {
