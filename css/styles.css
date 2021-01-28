@@ -23,6 +23,11 @@
 
 body {
     color: var(--primary-text-color);
+    
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    font-weight: 700;
 }
 
 /* - Точки у списка */
@@ -42,34 +47,72 @@ ul {
 .site-nav .link.current {
     color: var(--accent-color);
 }
-
+ .site-nav {
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+ }
 
 /* Hero */
 .hero-title {
     color: var(--white-color);
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 
 
 /* Black section title */
 .section-title {
     color: var(--title-text-color);
+
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
 }
 
 
 /* Features */
-.feature-list .title {
+.feature-title {
     color: var(--title-text-color);
+
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.feature-list .text {
+    font-weight: 400;
+    line-height: 1.71;
 }
 
 /* Examples с именами команд*/
 .team-list .name {
     color: var(--title-text-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+}
+
+.team-list .position {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
 }
 
 /* Button */
 .hero .order {
     color: var(--white-color);
     background-color: var(--accent-color);
+
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    font-family: inherit;
+    font-weight: inherit;
 }
 .hero .order:hover,
 .hero .order:focus {
@@ -82,6 +125,11 @@ ul {
 /* Логотипы */
 .logo {
     color: var(--accent-color);
+
+    font-family: Raleway, sans-serif;
+    font-size: 26px;
+    line-height: 1.19;
+    
 }
 .first-studio {
     color: var(--studio-black-color);
@@ -98,6 +146,10 @@ a {
 /* Контакты в шапке */
 .contacts .contact-link {
     color: var(--primary-text-color);
+
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 .contacts .contact-link:hover,
 .contacts .contact-link:focus {
@@ -112,6 +164,13 @@ a {
 .address-link {
     color: var(--transparent-white-color)
 }
+.address-text,
+.address-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    font-style: normal;
+}
 
 /* Фон */
 footer,
@@ -121,4 +180,23 @@ footer,
 
 .section-team {
     background-color: var(--team-bcg-color);
+}
+
+.button {
+    font-family: inherit;
+    letter-spacing: inherit;
+}
+/* Портфолио */
+.radio-buttons .button {
+    color: var(--title-text-color);
+    background-color: var(--team-bcg-color);
+}
+.radio-buttons .button:hover,
+.radio-buttons .button:focus {
+    color: var(--white-color);
+    background-color: var(--accent-color);
+}
+
+.projects h2 {
+    color: var(--title-text-color);
 }
