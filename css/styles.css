@@ -38,6 +38,8 @@ ul {
 /* site nav */
 .site-nav .link {
     color: var(--title-text-color);
+
+    text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -129,6 +131,7 @@ ul {
     font-family: Raleway, sans-serif;
     font-size: 26px;
     line-height: 1.19;
+    text-decoration: none;
     
 }
 .first-studio {
@@ -138,10 +141,6 @@ ul {
     color: var(--white-color);
 }
 
-/* - нижнее подчеркивание у ссылок */
-a {
-    text-decoration: none;
-}
 
 /* Контакты в шапке */
 .contacts .contact-link {
@@ -150,6 +149,7 @@ a {
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    text-decoration: none;
 }
 .contacts .contact-link:hover,
 .contacts .contact-link:focus {
@@ -162,7 +162,8 @@ a {
     color: var(--white-color);
 }
 .address-link {
-    color: var(--transparent-white-color)
+    color: var(--transparent-white-color);
+    text-decoration: none;
 }
 .address-text,
 .address-link {
