@@ -191,13 +191,33 @@ footer,
 .radio-buttons .button {
     color: var(--title-text-color);
     background-color: var(--team-bcg-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
 }
 .radio-buttons .button:hover,
 .radio-buttons .button:focus {
     color: var(--white-color);
     background-color: var(--accent-color);
+    cursor: pointer;
 }
 
 .projects h2 {
     color: var(--title-text-color);
+
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.project-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.projects p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
 }
