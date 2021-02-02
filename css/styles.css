@@ -64,7 +64,9 @@ ul {
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
+
 
 
 /* Black section title */
@@ -118,8 +120,6 @@ ul {
 }
 .hero .order:hover,
 .hero .order:focus {
-    color: var(--white-color);
-    background-color: var(--accent-color);
     cursor: pointer;
 }
 
@@ -183,11 +183,8 @@ footer,
     background-color: var(--team-bcg-color);
 }
 
-.button {
-    font-family: inherit;
-    letter-spacing: inherit;
-}
-/* Портфолио */
+
+/* КНОПКИ В ПОРТФОЛИО */
 .radio-buttons .button {
     color: var(--title-text-color);
     background-color: var(--team-bcg-color);
@@ -195,6 +192,8 @@ footer,
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
+    font-family: inherit;
+    letter-spacing: inherit;
 }
 .radio-buttons .button:hover,
 .radio-buttons .button:focus {
@@ -203,6 +202,7 @@ footer,
     cursor: pointer;
 }
 
+/* ПРОЭКТЫ В ПОРТФОЛИО */
 .projects h2 {
     color: var(--title-text-color);
 
